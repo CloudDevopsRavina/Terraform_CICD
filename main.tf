@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "dev" {
-    ami = "ami-0685bcc683dadb6b9"
+    ami = "ami-0685bcc683d9"
     instance_type = "t2.micro"
     tags = {
       Name = "ravina"
